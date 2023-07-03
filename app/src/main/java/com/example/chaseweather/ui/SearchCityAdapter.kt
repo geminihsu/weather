@@ -14,11 +14,11 @@ import com.example.chaseweather.util.AppConstants
 import com.example.chaseweather.util.AppUtils
 import com.example.chaseweather.util.getIconDrawable
 
-class SearchedCityAdapter constructor(
+class SearchCityAdapter constructor(
     private val context: Context,
    private val listener: WeatherListener
 ) :
-    RecyclerView.Adapter<SearchedCityAdapter.ViewHolder>() {
+    RecyclerView.Adapter<SearchCityAdapter.ViewHolder>() {
 
     private val weatherDetailList = ArrayList<WeatherDetail>()
 

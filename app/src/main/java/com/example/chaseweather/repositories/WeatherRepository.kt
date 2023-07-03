@@ -1,6 +1,6 @@
 package com.example.chaseweather.repositories
 
-import com.example.chaseweather.db.WeatherDatabase
+import com.example.chaseweather.database.WeatherDatabase
 import com.example.chaseweather.model.WeatherDataResponse
 import com.example.chaseweather.model.WeatherDetail
 import com.example.chaseweather.network.ApiHelper

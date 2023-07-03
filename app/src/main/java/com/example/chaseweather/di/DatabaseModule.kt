@@ -2,8 +2,8 @@ package com.example.chaseweather.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.chaseweather.db.WeatherDatabase
-import com.example.chaseweather.db.WeatherDetailDao
+import com.example.chaseweather.database.WeatherDatabase
+import com.example.chaseweather.database.WeatherDetailDao
 import com.example.chaseweather.util.AppConstants.DATA_BASE_NAME
 import dagger.Module
 import dagger.Provides

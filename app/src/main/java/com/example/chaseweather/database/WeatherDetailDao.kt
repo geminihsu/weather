@@ -1,4 +1,4 @@
-package com.example.chaseweather.db
+package com.example.chaseweather.database
 
 import androidx.room.Dao
 import androidx.room.Insert

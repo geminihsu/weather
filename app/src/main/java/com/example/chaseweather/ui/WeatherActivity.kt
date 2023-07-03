@@ -33,7 +33,6 @@ import com.example.chaseweather.util.showToast
 import com.example.chaseweather.viewmodel.WeatherViewModel
 import com.example.chaseweather.viewmodel.WeatherViewModelFactory
 import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationServices
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.Locale
 import javax.inject.Inject
@@ -54,7 +53,7 @@ class WeatherActivity : AppCompatActivity() {
 
     private lateinit var binding: WeatherActivityBinding
 
-    private lateinit var searchedCityTemperatureAdapter: SearchedCityAdapter
+    private lateinit var searchedCityTemperatureAdapter: SearchCityAdapter
 
     @Inject
     lateinit var locationClient: FusedLocationProviderClient
@@ -98,7 +97,7 @@ class WeatherActivity : AppCompatActivity() {
     }
 
     private fun initializeRecyclerView() {
-        searchedCityTemperatureAdapter = SearchedCityAdapter(this, listener)
+        searchedCityTemperatureAdapter = SearchCityAdapter(this, listener)
         val mLayoutManager = LinearLayoutManager(
             this,
             LinearLayoutManager.HORIZONTAL,

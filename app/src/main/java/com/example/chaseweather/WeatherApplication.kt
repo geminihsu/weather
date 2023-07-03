@@ -13,7 +13,7 @@ class WeatherApplication : DiApplication() {
         prepareApplicationComponent()
     }
 
-    open fun prepareApplicationComponent() {
+    private fun prepareApplicationComponent() {
         DiApplication.appComponent = WeatherComponent.build(this)
     }
 
