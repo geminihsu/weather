@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChaseWeather</string>
+    <string name="search">Search</string>
+    <string name="today">Today</string>
+    <string name="search_city_weather">Search City Weather</string>
+    <string name="search_for_a_city">Please search for a city</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="please_turn_on_location">Please turn on location</string>
+</resources>
