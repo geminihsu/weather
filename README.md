@@ -1,4 +1,5 @@
-The primary architecture, I implement with the MVVM, since the requirement is straightforward, one search bar and view on the activity display the weather data.  In order to reuse the instance of components, I configure the dagger hilt library to generate the instance of components and access it across the different layers, all instances of classes configured on the AppModule and DatabaseModule
+  The primary architecture, I implement with the MVVM, since the requirement is straightforward, one search bar and view on the activity display the weather data.  In order to reuse the instance of components, I configure the dagger hilt library to generate the instance of components and access it across the different layers, all instances of classes configured on the AppModule and DatabaseModule
+
 ## Before you start
 This project requires the following
 
@@ -35,6 +36,8 @@ This project requires the following
 
 ## Screenshots
 all demo recording video and screenshot
+![rainDay](https://github.com/geminihsu/weather/assets/1829733/bd682103-7948-44f8-80e8-a5463e904d96)
+
 
 ## APK file
 The file under apk folder
