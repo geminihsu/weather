@@ -20,22 +20,41 @@ This project requires the following
 
 ## Dependency Injection
 * AppModule
+  - WeatherRepository
+  - API Interface
+  - OkHttp
+  - Retrofit
+  - SharePreference
+  - FusedLocationProviderClient
 * DataBaseModule
+  - WeatherDatabaseDao
+  - Room database instance
 * TestModule
-
+  - WeatherDatabaseDao
+  - SharePreference
+   
 ## Folder Hierarchy
-* database - Room database interface and operators
-* di - inject the instance of classes
-* listener - callback listener when the adapter is clicked
-* model - define the weather table schema and Dto
-* network - define the API interface with coroutines suspend functions
-* repositories - WeatherReposity is an interface used to delegate between the API and database
-* ui - display the search cities view on the recycle view, and the UX on the WeatherActiviy
-* util - define the extension functions and constant variables, the State used to keep track the view model state
-* viewmodel - WeatherViewModel is where we define the business logic that stores the last search city on the SharedPreference and determines when we query the city weather from the network call or search from the weather database.
+* database
+  - Room database interface and operators
+* di
+  - inject the instance of classes
+* listener
+   - callback listener when the adapter is clicked
+* model
+  - define the weather table schema and Dto
+* network
+  - define the API interface with coroutines suspend functions
+* repositories
+  - WeatherReposity is an interface used to delegate between the API and database
+* ui
+  - display the search cities view on the recycle view, and the UX on the WeatherActiviy
+* util
+  - define the extension functions and constant variables, the State used to keep track the view model state
+* viewmodel
+  - WeatherViewModel is where we define the business logic that stores the last search city on the SharedPreference and determines when we query the city weather from the network call or search from the weather database.
 
 ## Screenshots
-all demo recording video and screenshot
+all demo recording videos and screenshot
 ![rainDay](https://github.com/geminihsu/weather/assets/1829733/bd682103-7948-44f8-80e8-a5463e904d96)
 
 
